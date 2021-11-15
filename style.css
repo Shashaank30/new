@@ -1,0 +1,118 @@
+body{
+    background-image: url('/img/backgroun.jpg') ;
+    background-repeat: none;
+    background-size: cover;
+    height:100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    background-color:#A9C7E1;
+    height:10vh;
+    align-items: center;
+}
+
+#nav-1{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top:-3px;
+    left: -10%;
+}
+#nav-2{
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    left: 110px;
+}
+.links{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    border-radius: 5px;
+    font-weight: 400; font-size: larger;
+    transition: 250ms 50ms background-color,color;
+}
+#nav-1 a:hover{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: 400; font-size: larger;
+}
+.smlogos{
+    height: 32px;
+    margin: 1px;
+    position: relative;
+    top: 17px;
+    transition:top 100ms 50ms ease;
+}
+.smlogos:hover{
+    height: 32px;
+    margin: 1px;
+    position: relative;
+    top: 12px;
+}
+.content{
+    height: 10vh;
+    width: 30vw;
+    background-color: lightskyblue;
+    position: relative;
+    top: 20vh;
+    left:-60vh ;
+    transition: 500ms ease-in-out;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.content:hover{
+    height: 10vh;
+    width: 30vw;
+    left: -5vh;
+    background-color: lightskyblue;
+    position: relative;
+    top: 20vh;
+    margin: 5px;
+    margin: 10px;
+    
+}
+#lougo{
+    height: 48px;
+}
+
+#a{background-color: #6388c7;}
+#b{background-color: #3B6095;}
+#c{background-color: #1A264E;}
+
+/* .main{
+    background-color: white;
+    height: 40vh;
+    width: 40vh;
+    position: relative;
+    top: -100px;
+    left:100px;
+    transition: ease all 100ms 10ms;
+}
+.main:hover{
+    background-color: white;
+    height: 40vh;
+    width: 40vh;
+    position: relative;
+    top: -100px;
+    left:100px;
+transform: rotate(45deg);
+} */
